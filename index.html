@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleforforms.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="courseform">
+            <h2>Калькулятор стоимости обучения</h2>
+            <label for="">
+                Курс:
+                <select id="courseSelect" oninput="courseform()" class="input"> 
+                    <option value="none">Выберите курс</option>
+                    <option value="Python">Python</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Data"><Data>DATA Аналитик</Data></option>
+                </select>
+            </label>
+            <label for="discountRange">
+                Скидка:
+                <input type="range" min="0" max="50" step="5" value="0" class="input" name="discount" id="discountRange" onclick="discount()">
+                <span id="discountValue" aria-live="polite">0%</span>
+            </label>
+            <LABEl>
+                Сумма:
+                <input type="text" id="totalPrice" readonly/ class="input">
+            </LABEl>
+        </div>
+
+        <div class="dynamicform">
+            <h2>Оставить заявку</h2>
+            <label for="">
+                Имя:
+                <input type="text" class="input">
+            </label>
+            <label for="">
+                Страна:
+                <select name="country" id="countryselect" placeholder="" oninput="countrycode()" class="input">
+                    <option value="none">Выберите страну</option>
+                    <option value="uz">Узбекистан</option>
+                    <option value="kz">Казахстан</option>
+                    <option value="ru">Россия</option>
+                </select>
+            </label>
+            <label for="">
+                Номер телефона:
+                <input type="text" placeholder="укажите свой номер телефона" name="phone" class="input">
+            </label>
+            <label for="">
+                Подвердить обработку данных
+                <input type="checkbox" name="check" oninput="activebutton()">                
+                <label for="">
+                    <input type="button" disabled value="Отправить" name="Btn" class="input">
+                </label>
+            </label>
+        </div>
+    </section>
+    <script src="./scriptforforms.js"></script>
+</body>
+</html>
