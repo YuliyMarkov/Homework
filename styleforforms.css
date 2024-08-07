@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: rgba(139, 0, 139, 0.114);
+    color: darkmagenta;
+}
+h1 {
+    color: darkorchid;
+    margin: 10px;    
+}
+h2 {
+    color: darkorchid;
+    margin: 10px;
+    font-size: 40px;
+}
+label {
+    display: block;
+    margin: 10px;
+}
+input {
+    display: inline;
+}
+.input {
+	width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color: darkmagenta;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+    margin: 5px;
+	background: #e991f37a;
+	border-radius: 8px;
+}
+@media (max-width: 500px) {
+    body {
+        background-color: rgba(0, 255, 255, 0.171);
+        font-size: 15px;
+        color: rgb(21, 165, 165);
+    }
+    h1 {
+        color: rgb(21, 165, 165);
+        margin: 2px;    
+    }
+    h2 {
+        color: rgb(21, 165, 165);
+        font-size: 20px;
+        margin: 2px;
+    }
+    label {
+        display: block;
+        margin: 5px;
+    }
+    input {
+        display: block;
+    }
+    .input {
+        width: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: rgb(21, 165, 165);;
+        padding: 6px 0 4px 10px;
+        border: 1px solid #cecece;
+        margin: 3px;
+        background: rgba(60, 210, 210, 0.297);
+        border-radius: 4px;
+    }
+}
+@media ((min-width:500px) and (max-width:700px)) {
+    body {
+        background-color: rgba(201, 36, 36, 0.295);
+        font-size: 17px;
+        color: rgb(220, 44, 44);
+    }
+    h1 {
+        color: rgb(220, 44, 44);
+        margin: 3px;    
+    }
+    h2 {
+        color: rgb(220, 44, 44);
+        font-size: 20px;
+        margin: 5px;
+    }
+    label {
+        display: block;
+        margin: 3px;
+    }
+    input {
+        display: block;
+    }
+    .input {
+        width: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: rgb(220, 44, 44);;
+        padding: 6px 0 4px 10px;
+        border: 1px solid #cecece;
+        margin: 2px;
+        background: rgba(156, 52, 52, 0.244);
+        border-radius: 4px;
+    }
+}
+@media ((min-width:700px) and (max-width:1000px)) {
+    body {
+        background-color: rgba(66, 36, 201, 0.295);
+        font-size: 20px;
+        color: rgba(66, 36, 201, 0.941);
+    }
+    h1 {
+        color: rgba(66, 36, 201, 0.941);
+        margin: 4px;    
+    }
+    h2 {
+        color: rgba(66, 36, 201, 0.941);
+        font-size: 30px;
+        margin: 4px;
+    }
+    label {
+        display: block;
+        margin: 4px;
+    }
+    input {
+        display: inline;
+    }
+    .input {
+        width: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgba(66, 36, 201, 0.941);;
+        padding: 6px 0 4px 10px;
+        border: 1px solid #cecece;
+        margin: 4px;
+        background: rgba(62, 52, 156, 0.26);
+        border-radius: 5px;
+    }
+}
